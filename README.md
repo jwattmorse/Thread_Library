@@ -1,11 +1,11 @@
 # Thread_Library
 
-##Executive Summary
+## Executive Summary
 Basic thread library that allow within process concurrent programing. The library implements mesa st\
 yle monitors and uses an interrupt library, libinterrupt.a, that is included in the repository.	  A di\
 sk scheduler is	 also included
 
-##Partner and Team Composition:
+## Partner and Team Composition:
 Implemented the thread library with a fellow Williams student Mai Toms. We collaborated on both desi\
 gning the layout of the library and writing code. The interrupt library was provided for us by super\
 iors but all other code was fully designed and implemented by us.
