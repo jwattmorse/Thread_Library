@@ -1,14 +1,10 @@
 # Thread_Library
 
 ## Executive Summary
-Basic thread library that allow within process concurrent programing. The library implements mesa st
-yle monitors and uses an interrupt library, libinterrupt.a, that is included in the repository. A di
-sk scheduler is	 also included
+Basic thread library that allow within process concurrent programing. The library implements mesa style monitors and uses an interrupt library, libinterrupt.a, that is included in the repository. A disk scheduler is also included.
 
 ## Partner and Team Composition:
-Implemented the thread library with a fellow Williams student Mai Toms. We collaborated on both desi
-gning the layout of the library and writing code. The interrupt library was provided for us by super
-iors but all other code was fully designed and implemented by us.
+Implemented the thread library with a fellow Williams student Mai Toms. We collaborated on both designing the layout of the library and writing code. The interrupt library was provided for us by superiors but all other code was fully designed and implemented by us.
 
 ## Outline of Code
 
@@ -22,8 +18,7 @@ condition variables.
 An older version of thread.c to allow for backtracking.
 
 ### disk.c
-Disk scheduler that supports subsequently reads from disk. Scheduler picks read request that is clos
-est to the current disk position. Note that the scheduler does not actually perform reads and/or writes.
+Disk scheduler that supports subsequently reads from disk. Scheduler picks read request that is closest to the current disk position. Note that the scheduler does not actually perform reads and/or writes.
 
 ### interrupt.h
 Defines the hardware interupts used by libinterrupt.a which allow for atomic actions.
